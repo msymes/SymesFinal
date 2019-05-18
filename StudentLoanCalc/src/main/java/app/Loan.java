@@ -58,7 +58,7 @@ public class Loan {
 		balance = 0.0;
 		Payment p = new Payment(payment, interest_payment,principal_payment,i+1,balance);
 		loanPayments.add(p);
-		numberPayments = i;
+		numberPayments = i+1;
 		totalInterest+= interest_payment;
 
 }
