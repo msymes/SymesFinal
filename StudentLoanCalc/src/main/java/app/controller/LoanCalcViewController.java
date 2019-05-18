@@ -111,6 +111,7 @@ public class LoanCalcViewController implements Initializable   {
 			System.out.println(p.getInterest());
 			System.out.println(p.getPrincipal());
 			System.out.println(p.getBalance());
+			System.out.println("");
 		}
 			
 		lblTotalPayemnts.setText(Integer.toString(L.numberPayments));
